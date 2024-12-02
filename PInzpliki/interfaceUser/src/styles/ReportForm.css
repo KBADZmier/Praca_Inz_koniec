@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .category-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .category-button {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #007bff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .category-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .category-button.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .field {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
